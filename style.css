@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#header h1 {
+    margin-right: 20px;
+}
+
+.clickable {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.clickable:hover {
+    font-weight: bold;
+}
+
+.background {
+    min-height: 50vh;
+    /* Adjust this as needed */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#background1 {
+    background-image: url('D: /UCR/code/pic/Website Design 1/whitehat.jpg');
+}
+
+#background2 {
+    background-image: url('D:/UCR/code/pic/Website Design 1/blackhat.jpg');
+}
