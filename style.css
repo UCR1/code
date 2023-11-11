@@ -30,8 +30,9 @@ body {
 }
 
 .background {
-    min-height: 50vh;
-    /* Adjust this as needed */
+    position: relative;
+    min-height: 100vh;
+    /* Full viewport height for each image */
     width: 100%;
     background-size: cover;
     background-position: center;
